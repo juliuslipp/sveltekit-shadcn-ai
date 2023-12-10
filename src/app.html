@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+
+		<style>
+			body {
+				top: 0!important;
+				left: 0!important;
+				right: 0!important;
+				bottom: 0!important;
+				position: unset !important;
+			}
+		</style>
+	</head>
+	<body class="min-h-screen h-content" data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
